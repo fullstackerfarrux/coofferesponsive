@@ -1,0 +1,38 @@
+.greatcoffe {
+  background-image: url(../../images/cofee.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 120px;
+
+  h1 {
+    width: 493px;
+    font-family: "Fraunces 9pt";
+    font-weight: 900;
+    font-size: 72px;
+    color: #fefcf7;
+  }
+  p {
+    width: 425px;
+    font-family: "Barlow";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fefcf7;
+    margin-top: 30px;
+  }
+  button {
+    height: 56px;
+    width: 217px;
+    background: #0e8784;
+    border-radius: 6px;
+    margin-top: 50px;
+    border-color: transparent;
+
+    .btn {
+      font-family: "Fraunces 9pt";
+      font-weight: 900;
+      font-size: 18px;
+      text-align: center;
+      color: #fefcf7;
+    }
+  }
+}

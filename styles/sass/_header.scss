@@ -1,0 +1,18 @@
+.header {
+  align-items: center;
+  padding: 30px 30px;
+
+  ul {
+    display: flex;
+    margin-left: auto;
+
+    li {
+      margin-left: 30px;
+      font-family: "Barlow";
+      font-weight: 700;
+      font-size: 12px;
+      color: #83888f;
+    }
+  }
+}
+

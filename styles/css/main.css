@@ -1,0 +1,498 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.header {
+  align-items: center;
+  padding: 30px 30px;
+}
+.header ul {
+  display: flex;
+  margin-left: auto;
+}
+.header ul li {
+  margin-left: 30px;
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 12px;
+  color: #83888f;
+}
+
+.greatcoffe {
+  background-image: url(../../images/cofee.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 120px;
+}
+.greatcoffe h1 {
+  width: 493px;
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 72px;
+  color: #fefcf7;
+}
+.greatcoffe p {
+  width: 425px;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  color: #fefcf7;
+  margin-top: 30px;
+}
+.greatcoffe button {
+  height: 56px;
+  width: 217px;
+  background: #0e8784;
+  border-radius: 6px;
+  margin-top: 50px;
+  border-color: transparent;
+}
+.greatcoffe button .btn {
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.ourcollection {
+  background-image: url(../../images/ourcollection.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-top: 100px;
+}
+.ourcollection section {
+  margin-top: 130px;
+  margin-left: 50px;
+  margin-bottom: 200px;
+}
+.ourcollection section:nth-child(4) {
+  margin-top: 140px;
+}
+.ourcollection section h4 {
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 24px;
+  text-align: center;
+  color: #333d4b;
+}
+.ourcollection section p {
+  width: 250px;
+  margin: 0 auto;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #333d4b;
+}
+
+.whychoose {
+  padding-top: 100px;
+  padding-bottom: 280px;
+  background-color: #2c343e;
+  text-align: center;
+}
+.whychoose h2 {
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 40px;
+  color: #fefcf7;
+}
+.whychoose p {
+  width: 540px;
+  margin: 30px auto;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  color: #fefcf7;
+}
+.whychoose .flex {
+  justify-content: space-between;
+  position: relative;
+}
+.whychoose .flex section {
+  padding-top: 70px;
+  width: 350px;
+  height: 382px;
+  background: #0e8784;
+  border-radius: 8px;
+}
+.whychoose .flex section:nth-child(1) {
+  position: absolute;
+  left: 45px;
+}
+.whychoose .flex section:nth-child(2) {
+  position: absolute;
+  left: 425px;
+}
+.whychoose .flex section:nth-child(3) {
+  position: absolute;
+  left: 805px;
+  padding-top: 90px;
+}
+.whychoose .flex section h4 {
+  margin-top: 50px;
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 24px;
+  color: #fefcf7;
+}
+.whychoose .flex section p {
+  width: 255px;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  color: #fefcf7;
+}
+
+.howitworks {
+  margin-top: 250px;
+}
+.howitworks h4 {
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 24px;
+  color: #83888f;
+  margin-bottom: 80px;
+}
+.howitworks .flex {
+  margin-bottom: 70px;
+}
+.howitworks .flex img:nth-child(1) {
+  transform: translateY(-15px);
+}
+.howitworks .flex img:nth-child(2) {
+  height: 2px;
+}
+.howitworks .flex img:nth-child(3) {
+  transform: translateY(-15px) translateX(-250px);
+}
+.howitworks .flex img:nth-child(4) {
+  transform: translateY(-15px) translateX(-30px);
+}
+.howitworks .flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+.howitworks .flex1 section h2 {
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 72px;
+  color: #fdd6ba;
+}
+.howitworks .flex1 section h3 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 205px;
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 32px;
+  color: #333d4b;
+}
+.howitworks .flex1 section p {
+  width: 250px;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  color: #333d4b;
+}
+.howitworks button {
+  height: 56px;
+  width: 217px;
+  background: #0e8784;
+  border-radius: 6px;
+  margin-top: 50px;
+  border-color: transparent;
+}
+.howitworks button .btn {
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.footer {
+  margin-top: 200px;
+  background-color: #2c343e;
+  padding: 30px 80px;
+  align-items: center;
+}
+.footer .logooq {
+  width: 200px;
+}
+.footer ul {
+  display: flex;
+  margin-left: 100px;
+}
+.footer ul li {
+  margin-left: 30px;
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 12px;
+  color: #83888f;
+}
+.footer ul li:hover {
+  color: white;
+}
+.footer .facebook {
+  margin-left: 300px;
+}
+.footer img {
+  margin-left: 15px;
+}
+.footer img:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 1920px) {
+  .container {
+    width: 1260px;
+  }
+}
+@media (max-width: 1280px) {
+  .container {
+    width: 748px;
+  }
+  .ourcollection {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../images/ourcollection.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 750px;
+    margin-top: 100px;
+  }
+  .ourcollection section {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .ourcollection section img {
+    width: 350px;
+  }
+  .ourcollection section h4 {
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: start;
+    color: #333d4b;
+  }
+  .ourcollection section p {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: "Barlow";
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #333d4b;
+    text-align: start;
+  }
+  .whychoose {
+    padding-top: 100px;
+    padding-bottom: 280px;
+    background-color: #2c343e;
+    text-align: center;
+  }
+  .whychoose h2 {
+    font-family: "Fraunces 9pt";
+    font-weight: 900;
+    font-size: 40px;
+    color: #fefcf7;
+  }
+  .whychoose p {
+    width: 540px;
+    margin: 30px auto;
+    font-family: "Barlow";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fefcf7;
+  }
+  .whychoose .flex {
+    margin-left: 50px;
+    flex-direction: column;
+    position: relative;
+  }
+  .whychoose .flex section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding-top: 0;
+    width: 570px;
+    height: 180px;
+    background: #0e8784;
+    border-radius: 8px;
+  }
+  .whychoose .flex section:nth-child(1) {
+    left: 50px;
+  }
+  .whychoose .flex section:nth-child(2) {
+    top: 200px;
+    left: 50px;
+  }
+  .whychoose .flex section:nth-child(3) {
+    top: 400px;
+    left: 50px;
+    padding-top: 0;
+  }
+  .whychoose .flex section img {
+    width: 56px;
+    height: 56px;
+  }
+  .whychoose .flex section h4 {
+    margin-left: 50px;
+    text-align: start;
+    margin-top: 0;
+    font-family: "Fraunces 9pt";
+    font-weight: 900;
+    font-size: 24px;
+    color: #fefcf7;
+  }
+  .whychoose .flex section p {
+    margin-left: 50px;
+    text-align: start;
+    margin-top: 0;
+    width: 345px;
+    font-family: "Barlow";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fefcf7;
+    margin-top: 20px;
+  }
+  .howitworks {
+    margin-top: 400px;
+  }
+  .howitworks h4 {
+    font-family: "Fraunces 9pt";
+    font-weight: 900;
+    font-size: 24px;
+    color: #83888f;
+    margin-bottom: 80px;
+  }
+  .howitworks .flex {
+    margin-bottom: 70px;
+  }
+  .howitworks .flex img:nth-child(1) {
+    transform: translateY(-15px);
+  }
+  .howitworks .flex img:nth-child(2) {
+    height: 2px;
+  }
+  .howitworks .flex img:nth-child(3) {
+    transform: translateY(-15px) translateX(-250px);
+  }
+  .howitworks .flex img:nth-child(4) {
+    transform: translateY(-15px) translateX(-30px);
+  }
+  .howitworks .flex1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .howitworks .flex1 section h2 {
+    font-family: "Fraunces 9pt";
+    font-weight: 900;
+    font-size: 72px;
+    color: #fdd6ba;
+  }
+  .howitworks .flex1 section h3 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 205px;
+    font-family: "Fraunces 9pt";
+    font-weight: 900;
+    font-size: 32px;
+    color: #333d4b;
+  }
+  .howitworks .flex1 section p {
+    width: 185px;
+    font-family: "Barlow";
+    font-weight: 400;
+    font-size: 16px;
+    color: #333d4b;
+  }
+  .howitworks button {
+    height: 56px;
+    width: 217px;
+    background: #0e8784;
+    border-radius: 6px;
+    margin-top: 50px;
+    border-color: transparent;
+  }
+  .howitworks button .btn {
+    font-family: "Fraunces 9pt";
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    color: #fefcf7;
+  }
+  .footer {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    background-color: #2c343e;
+    padding: 30px 80px;
+    align-items: center;
+    display: block;
+  }
+  .footer .logooq {
+    width: 300px;
+    margin-left: 150px;
+  }
+  .footer ul {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  .footer ul li {
+    margin-left: 30px;
+    font-family: "Barlow";
+    font-weight: 700;
+    font-size: 14px;
+    color: #83888f;
+  }
+  .footer ul li:hover {
+    color: white;
+  }
+  .footer .facebook {
+    margin-left: 220px;
+    margin-top: 50px;
+  }
+  .footer img {
+    margin-left: 15px;
+  }
+  .footer img:hover {
+    opacity: 0.6;
+  }
+}/*# sourceMappingURL=main.css.map */

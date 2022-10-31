@@ -1,0 +1,30 @@
+.ourcollection {
+  background-image: url(../../images/ourcollection.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-top: 100px;
+  section {
+    margin-top: 130px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    &:nth-child(4) {
+      margin-top: 140px;
+    }
+    h4 {
+      font-family: "Fraunces 9pt";
+      font-weight: 900;
+      font-size: 24px;
+      text-align: center;
+      color: #333d4b;
+    }
+    p {
+      width: 250px;
+      margin: 0 auto;
+      font-family: "Barlow";
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #333d4b;
+    }
+  }
+}
